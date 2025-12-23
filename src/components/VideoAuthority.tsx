@@ -6,7 +6,7 @@ const VideoAuthority = () => {
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
-        <section className="py-24 bg-brand-black relative overflow-hidden">
+        <section className="py-12 md:py-24 bg-brand-black relative overflow-hidden">
             {/* Ambient Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-gold/5 blur-[120px] rounded-full pointer-events-none"></div>
 
@@ -68,13 +68,16 @@ const VideoAuthority = () => {
 
                         <Reveal delay={0.6}>
                             <div className="flex items-center gap-4">
-                                <div className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 overflow-hidden">
-                                    {/* Placeholder for Rogério's photo if available, generic silhouette for now */}
-                                    <div className="w-full h-full bg-gradient-to-br from-brand-gold to-brand-noir opacity-50"></div>
+                                <div className="w-16 h-16 rounded-full bg-brand-black/80 border border-brand-gold/30 overflow-hidden p-2 flex items-center justify-center shadow-lg">
+                                    <img
+                                        src="/veredas-logo.png"
+                                        alt="Logo Veredas"
+                                        className="w-full h-full object-contain"
+                                    />
                                 </div>
                                 <div>
                                     <p className="text-white font-bold font-serif text-lg">Rogério Amaral</p>
-                                    <p className="text-brand-gold/60 text-xs uppercase tracking-widest">Juiz do Trabalho & Especialista em Execução</p>
+                                    <p className="text-brand-gold/60 text-xs uppercase tracking-widest">Servidor Federal & Especialista em Execução</p>
                                 </div>
                             </div>
                         </Reveal>

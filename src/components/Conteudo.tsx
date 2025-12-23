@@ -1,4 +1,4 @@
-import { BookOpen, Map, Eye, FileText, Brain } from 'lucide-react';
+import { Map, Eye, FileText, Brain } from 'lucide-react';
 import { Reveal } from './Reveal';
 
 const Conteudo = () => {
@@ -43,28 +43,20 @@ const Conteudo = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Mockup Refined */}
-          <div className="relative group perspective-1000 flex justify-center">
+          {/* Mockup Image */}
+          <div className="relative group perspective-1000 flex justify-center text-center items-center">
             <Reveal>
-              <div className="relative w-[300px] h-[420px] bg-gradient-to-br from-[#1a1a1a] to-[#0a0a0a] rounded-r-2xl rounded-l-md shadow-[20px_20px_60px_rgba(0,0,0,0.5)] transform group-hover:rotate-y-12 transition-transform duration-700 flex flex-col items-center justify-center p-8 border border-white/5 border-l-8 border-l-brand-gold">
-                {/* Cover Texture */}
-                {/* Cover Texture */}
-                <div className="absolute inset-0 bg-[url('https://i.ibb.co/My1C7SzK/Gemini-Generated-Image-wuffrcwuffrcwuff.png')] bg-cover bg-center rounded-r-xl opacity-90 mix-blend-normal"></div>
+              <div className="relative inline-block">
+                {/* Glow Effect */}
+                <div className="absolute -inset-4 bg-brand-gold/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
 
-                <div className="relative z-10 text-center">
-                  <BookOpen className="w-16 h-16 text-brand-gold mx-auto mb-6" />
-                  <h3 className="text-2xl font-serif text-white font-bold leading-tight mb-2 tracking-wide">GUIA-ME PELAS VEREDAS</h3>
-                  <p className="text-brand-gold/80 text-[10px] tracking-[0.3em] uppercase mb-12">Da Execução Trabalhista</p>
-                  <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-brand-gold/50 to-transparent"></div>
-                  <p className="mt-4 text-gray-500 text-[10px] uppercase">Edição Limitada • Volume 1</p>
-                </div>
-
-                {/* Spine Effect */}
-                <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white/10 to-transparent pointer-events-none"></div>
+                <img
+                  src="https://i.ibb.co/My1C7SzK/Gemini-Generated-Image-wuffrcwuffrcwuff.png"
+                  alt="Advogada com o Guia Definitivo"
+                  className="relative w-full max-w-md rounded-2xl shadow-2xl border border-white/10 transform transition-transform duration-500 hover:scale-[1.02]"
+                />
               </div>
             </Reveal>
-
-            {/* Shadow Glow */}
-            <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[300px] h-12 bg-brand-gold/10 blur-3xl rounded-[50%]"></div>
           </div>
 
           <div className="space-y-12">

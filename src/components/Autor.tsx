@@ -1,4 +1,3 @@
-import { User } from 'lucide-react';
 
 const Autor = () => {
   return (
@@ -9,7 +8,7 @@ const Autor = () => {
             <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-2">
               Quem é o Criador?
             </h2>
-            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Juiz do Trabalho & Especialista em Execução</span></h3>
+            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Servidor Federal & Especialista em Execução</span></h3>
 
             <div className="space-y-6 text-gray-300">
               <p>
@@ -31,17 +30,28 @@ const Autor = () => {
           </div>
 
           <div className="order-1 md:order-2 flex justify-center">
-            {/* Photo Placeholder */}
-            <div className="relative w-72 h-72 md:w-96 md:h-96">
-              <div className="absolute inset-0 border-2 border-brand-gold rounded-full transform rotate-6"></div>
-              <div className="absolute inset-0 border-2 border-brand-gold/30 rounded-full transform -rotate-6"></div>
-              <div className="absolute inset-2 bg-gradient-to-t from-brand-black to-gray-800 rounded-full overflow-hidden flex items-end justify-center grayscale contrast-125">
-                <User className="w-full h-full text-gray-600 p-8 transform translate-y-4" />
-                {/* This div mimics a photo overlay */}
-                <div className="absolute inset-0 bg-brand-gold/10 mix-blend-overlay"></div>
+            {/* Logo Veredas */}
+            <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
+              <div className="absolute inset-0 bg-brand-gold/10 blur-[80px] rounded-full pointer-events-none"></div>
+
+              <div className="relative z-10 p-8 border border-white/5 rounded-3xl bg-white/5 backdrop-blur-sm shadow-2xl skew-y-3 hover:skew-y-0 transition-transform duration-700">
+                <img
+                  src="/veredas-logo.png"
+                  alt="Método Vereda Logo"
+                  className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(198,168,124,0.3)]"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.parentElement?.classList.add('bg-brand-gold/20');
+                  }}
+                />
+                {/* Fallback Icon (Only shows if image fails/is missing) */}
+                <div className="absolute inset-0 flex items-center justify-center -z-10">
+                  <div className="text-brand-gold/20 font-serif text-6xl">V</div>
+                </div>
               </div>
-              <div className="absolute bottom-0 right-10 bg-brand-gold text-brand-black font-bold px-4 py-1 rounded shadow-lg text-sm">
-                10+ Anos de TRT
+
+              <div className="absolute bottom-10 right-0 bg-brand-gold text-brand-black font-bold px-6 py-2 rounded shadow-lg text-sm border border-white/20 backdrop-blur-md">
+                10+ Anos de Prática
               </div>
             </div>
           </div>
