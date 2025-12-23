@@ -9,15 +9,16 @@ export default {
       colors: {
         brand: {
           black: '#050505',
-          dark: '#0a0a0a',
-          gray: '#121212', // Slightly darker gray for better contrast
+          noir: '#0A0A0B', // OLED Black with tiny blue tint
+          graphite: '#1A1A1C',
           surface: '#1E1E1E',
           gold: {
-            DEFAULT: '#D4AF37',
-            light: '#F9E5B9', // Champagne gold
-            dark: '#8B6508',
-            hover: '#E5C158',
-          }
+            DEFAULT: '#C6A87C', // More metallic/matte gold
+            light: '#E5D4B3', // Champagne
+            dark: '#8C7352',
+            hover: '#D9BC92',
+          },
+          champagne: '#E5D4B3',
         }
       },
       fontFamily: {
@@ -43,6 +44,10 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-20px)' },
         }
+      },
+      boxShadow: {
+        'gold-glow': '0 0 20px rgba(198, 168, 124, 0.2)',
+        'gold-glow-lg': '0 0 30px rgba(198, 168, 124, 0.4)',
       }
     },
   },

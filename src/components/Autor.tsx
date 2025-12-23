@@ -2,15 +2,15 @@ import { User } from 'lucide-react';
 
 const Autor = () => {
   return (
-    <section className="py-20 bg-brand-gray relative">
+    <section className="py-20 bg-brand-graphite relative">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-2">
               Quem é o Criador?
             </h2>
-            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Servidor Público do TRT 1ª Região – 12ª VT/RJ</span></h3>
-            
+            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Juiz do Trabalho & Especialista em Execução</span></h3>
+
             <div className="space-y-6 text-gray-300">
               <p>
                 Rogério não é um "guru de internet". Ele é o cara que está do outro lado do balcão, analisando as suas petições todos os dias há mais de 10 anos.
@@ -36,9 +36,9 @@ const Autor = () => {
               <div className="absolute inset-0 border-2 border-brand-gold rounded-full transform rotate-6"></div>
               <div className="absolute inset-0 border-2 border-brand-gold/30 rounded-full transform -rotate-6"></div>
               <div className="absolute inset-2 bg-gradient-to-t from-brand-black to-gray-800 rounded-full overflow-hidden flex items-end justify-center grayscale contrast-125">
-                 <User className="w-full h-full text-gray-600 p-8 transform translate-y-4" />
-                 {/* This div mimics a photo overlay */}
-                 <div className="absolute inset-0 bg-brand-gold/10 mix-blend-overlay"></div>
+                <User className="w-full h-full text-gray-600 p-8 transform translate-y-4" />
+                {/* This div mimics a photo overlay */}
+                <div className="absolute inset-0 bg-brand-gold/10 mix-blend-overlay"></div>
               </div>
               <div className="absolute bottom-0 right-10 bg-brand-gold text-brand-black font-bold px-4 py-1 rounded shadow-lg text-sm">
                 10+ Anos de TRT
