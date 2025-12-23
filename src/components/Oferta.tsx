@@ -63,7 +63,7 @@ const Oferta = () => {
                                     <span className="text-2xl text-brand-gold mb-2 font-bold">,00</span>
                                 </div>
 
-                                <a href="https://pay.kiwify.com.br/placeholder" target="_blank" rel="noopener noreferrer" className="w-full btn-gold text-lg flex items-center justify-center gap-3 group mb-8">
+                                <a href="/?checkout" className="w-full btn-gold text-lg flex items-center justify-center gap-3 group mb-8">
                                     COMPRAR AGORA
                                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </a>
