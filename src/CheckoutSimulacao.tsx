@@ -23,6 +23,9 @@ const CheckoutSimulacao = () => {
                 <div className="space-y-6">
                     {/* Header Logo */}
                     <div className="flex items-center gap-3 mb-8">
+                        <a href="/" className="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-colors">
+                            <ArrowRight className="w-5 h-5 rotate-180" />
+                        </a>
                         <div className="w-10 h-10 bg-brand-gold rounded-lg flex items-center justify-center text-brand-black font-bold text-xl">V</div>
                         <span className="text-xl font-serif text-white">Checkout Seguro</span>
                     </div>
@@ -140,10 +143,10 @@ const CheckoutSimulacao = () => {
                         </div>
                     </div>
 
-                    <button className="w-full btn-gold py-4 text-brand-black font-bold uppercase rounded-lg hover:brightness-110 transition-all flex items-center justify-center gap-2">
+                    <a href="/" className="w-full btn-gold py-4 text-brand-black font-bold uppercase rounded-lg hover:brightness-110 transition-all flex items-center justify-center gap-2">
                         Finalizar Compra
                         <ArrowRight className="w-5 h-5" />
-                    </button>
+                    </a>
 
                     <div className="mt-6 flex justify-center gap-4 text-gray-600">
                         <Lock className="w-4 h-4" />
