@@ -24,7 +24,7 @@ const Autor = () => {
                 "Doutor, como eu faço para meus processos andarem assim?"
               </p>
               <p>
-                Essa foi a pergunta que deu origem ao <strong className="text-white">Método Vereda</strong>.
+                Essa foi a pergunta que deu origem ao <strong className="text-white">Método Veredas de Execução Trabalhista</strong>.
               </p>
             </div>
           </div>

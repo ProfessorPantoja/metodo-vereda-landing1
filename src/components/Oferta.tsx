@@ -34,7 +34,7 @@ const Oferta = () => {
                             <ul className="space-y-6 border-l border-white/10 pl-6">
                                 <li className="flex items-start gap-4">
                                     <Check className="w-5 h-5 text-brand-gold mt-1" />
-                                    <span className="text-gray-300">Acesso Vitalício ao Ebook (Vol. 1)</span>
+                                    <span className="text-gray-300">Método Veredas de Execução Trabalhista (Vol. 1)</span>
                                 </li>
                                 <li className="flex items-start gap-4">
                                     <Check className="w-5 h-5 text-brand-gold mt-1" />

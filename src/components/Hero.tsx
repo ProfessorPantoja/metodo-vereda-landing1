@@ -25,7 +25,7 @@ const Hero = () => {
             className="flex items-center gap-3 mb-8"
           >
             <div className="h-[1px] w-12 bg-brand-gold"></div>
-            <span className="text-brand-gold uppercase tracking-[0.2em] text-sm font-medium">Método Vereda • Vol. 1</span>
+            <span className="text-brand-gold uppercase tracking-[0.2em] text-sm font-medium">Método Veredas de Execução Trabalhista • Vol. 1</span>
           </motion.div>
 
           {/* Main Title - Display Typography */}
