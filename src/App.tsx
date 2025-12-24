@@ -6,6 +6,7 @@ import Conteudo from './components/Conteudo';
 import Autor from './components/Autor';
 import Prova from './components/Prova';
 import Oferta from './components/Oferta';
+import Comments from './components/Comments';
 import Footer from './components/Footer';
 
 import CheckoutSimulacao from './CheckoutSimulacao';
@@ -26,6 +27,7 @@ function App() {
       <Autor />
       <Prova />
       <Oferta />
+      <Comments />
       <Footer />
     </div>
   );
