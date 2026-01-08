@@ -16,17 +16,19 @@ const Oferta = () => {
                     <div className="space-y-10">
                         <Reveal>
                             <h2 className="text-4xl md:text-6xl font-serif text-white leading-[1.1]">
-                                O Preço de um <br />
-                                <span className="text-gradient-champagne">Erro Processual</span>
+                                Invista em <br />
+                                <span className="text-gradient-champagne">Conhecimento Técnico</span>
                             </h2>
                         </Reveal>
 
                         <Reveal delay={0.2}>
                             <p className="text-gray-400 text-lg leading-relaxed">
-                                Quanto custa largar um processo no arquivo provisório? Quanto custa ver o devedor "ganhando tempo" enquanto seu cliente cobra resultados?
+                                Quanto tempo você gasta pesquisando jurisprudência sobre requisitos do Sisbajud?
+                                Quanto custa refazer petições por falta de documentação técnica adequada?
                             </p>
                             <p className="text-gray-400 text-lg leading-relaxed mt-4">
-                                Por menos de um almoço executivo, você acessa a inteligência de quem decide a execução há 12 anos.
+                                O <strong className="text-white">Método Veredas</strong> reúne em um único lugar o conhecimento prático
+                                de 12 anos de execução trabalhista, organizado de forma didática e aplicável.
                             </p>
                         </Reveal>
 
@@ -34,11 +36,11 @@ const Oferta = () => {
                             <ul className="space-y-6 border-l border-white/10 pl-6">
                                 <li className="flex items-start gap-4">
                                     <Check className="w-5 h-5 text-brand-gold mt-1" />
-                                    <span className="text-gray-300">Método Veredas de Execução Trabalhista (Vol. 1)</span>
+                                    <span className="text-gray-300">E-book Completo: <em>Guia-me Pelas Veredas da Execução Trabalhista</em> (Vol. 1)</span>
                                 </li>
                                 <li className="flex items-start gap-4">
                                     <Check className="w-5 h-5 text-brand-gold mt-1" />
-                                    <span className="text-gray-300">Bônus: Fluxo Secreto de Investigação</span>
+                                    <span className="text-gray-300">Fluxogramas e Modelos Visuais de Procedimentos</span>
                                 </li>
                                 <li className="flex items-start gap-4">
                                     <Check className="w-5 h-5 text-brand-gold mt-1" />
@@ -64,13 +66,13 @@ const Oferta = () => {
                                 </div>
 
                                 <a href="/?checkout" className="w-full btn-gold text-lg flex items-center justify-center gap-3 group mb-8">
-                                    COMPRAR AGORA
+                                    ADQUIRIR E-BOOK
                                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </a>
 
                                 <div className="flex items-center justify-center gap-2 text-xs text-gray-500 font-medium uppercase tracking-wider">
                                     <ShieldCheck className="w-4 h-4 text-green-500" />
-                                    Garantia Blindada de 7 Dias
+                                    Garantia de Satisfação: 7 Dias para Avaliar o Conteúdo
                                 </div>
                             </div>
                         </div>

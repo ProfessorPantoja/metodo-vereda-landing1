@@ -35,9 +35,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-[1.1] text-white"
           >
-            O Processo foi Ganho. <br />
+            Execução Trabalhista: <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-brand-champagne to-brand-gold-dark italic pr-4">
-              O Dinheiro Sumiu?
+              O Mapa Que Faltava
             </span>
           </motion.h1>
 
@@ -48,7 +48,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-2xl text-gray-400 mb-12 max-w-2xl leading-relaxed font-light border-l border-white/10 pl-6"
           >
-            Descubra a <strong className="text-white">engenharia processual</strong> que transforma "ganhou mas não levou" em alvará expedido. Sem sorte. Apenas método.
+            Aprenda a <strong className="text-white">lógica estratégica</strong> por trás do Sisbajud, IDPJ, Sniper e Expropriação. O conhecimento prático de 12 anos sistematizado em um método passo a passo.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -63,16 +63,16 @@ const Hero = () => {
               className="btn-gold group relative overflow-hidden"
             >
               <span className="relative z-10 block group-hover:-translate-y-[150%] transition-transform duration-500">
-                DESTRAVAR EXECUÇÃO
+                ACESSAR O MÉTODO
               </span>
               <span className="absolute inset-0 z-10 flex items-center justify-center translate-y-[150%] group-hover:translate-y-0 transition-transform duration-500 text-brand-black">
-                AGORA
+                COMEÇAR AGORA
               </span>
             </a>
 
             <div className="flex items-center gap-4 py-4 px-6 rounded-sm border border-white/10 bg-white/5 backdrop-blur-sm">
               <ShieldAlert className="w-6 h-6 text-brand-gold" />
-              <span className="text-sm text-gray-300">Método validado em +12 anos</span>
+              <span className="text-sm text-gray-300">Conhecimento de +12 anos</span>
             </div>
           </motion.div>
         </div>

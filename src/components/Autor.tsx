@@ -6,25 +6,29 @@ const Autor = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-2">
-              Quem é o Criador?
+              Sobre o Autor
             </h2>
-            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Servidor Federal & Especialista em Execução</span></h3>
+            <h3 className="text-xl text-white font-bold mb-6">Rogério Amaral <span className="text-gray-400 font-normal block text-sm mt-1">Servidor Público Federal | 12 Anos em Execução Trabalhista</span></h3>
 
             <div className="space-y-6 text-gray-300">
               <p>
-                Rogério não é um "guru de internet". Ele é o cara que está do outro lado do balcão, analisando as suas petições todos os dias há mais de 10 anos.
+                Rogério Amaral não é influencer, guru ou consultor.
               </p>
               <p>
-                Ele viu de perto a angústia de advogados excelentes perderem prazos ou oportunidades por falta de estratégia. E viu advogados medianos terem sucesso extraordinário apenas por seguirem a ordem certa das coisas.
+                Ele é um profissional que, ao longo de <strong className="text-white">12 anos atuando em execução trabalhista</strong>,
+                percebeu um padrão: muitos processos travavam não por má-fé ou incompetência, mas por <strong className="text-white">falta
+                  de conhecimento técnico estruturado</strong> sobre a sequência correta de atos processuais.
               </p>
               <p>
-                Ele atua em uma das Varas mais eficientes do Brasil (a 12ª VT/RJ), onde a celeridade não é um mito, é meta batida.
+                Ao ser questionado repetidamente sobre "como fazer os processos andarem melhor", ele decidiu organizar
+                esse conhecimento de forma sistemática.
               </p>
               <p className="border-l-4 border-brand-gold pl-4 italic text-brand-gold-light">
-                "Doutor, como eu faço para meus processos andarem assim?"
+                "Celeridade não é improviso. Efetividade não é acaso. É consequência de método."
               </p>
               <p>
-                Essa foi a pergunta que deu origem ao <strong className="text-white">Método Veredas de Execução Trabalhista</strong>.
+                O <strong className="text-white">Método Veredas</strong> é o resultado: uma compilação educacional de procedimentos,
+                requisitos técnicos e lógica processual que qualquer profissional do direito pode estudar e aplicar em sua prática.
               </p>
             </div>
           </div>

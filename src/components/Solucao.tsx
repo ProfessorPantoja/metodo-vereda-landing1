@@ -10,9 +10,9 @@ const Solucao = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center md:text-left mb-20 max-w-3xl">
           <Reveal>
-            <h2 className="text-sm font-bold tracking-widest text-brand-gold uppercase mb-4">O Algoritmo da Eficiência</h2>
+            <h2 className="text-sm font-bold tracking-widest text-brand-gold uppercase mb-4">O Método Veredas: Estrutura e Lógica</h2>
             <p className="text-4xl md:text-6xl font-serif text-white leading-[1.1]">
-              Do despacho inicial <br />ao <span className="text-gradient-champagne italic">alvará na conta</span>.
+              Não é decorar fórmulas. <br />É <span className="text-gradient-champagne italic">entender a razão</span> de cada etapa.
             </p>
           </Reveal>
         </div>
@@ -27,15 +27,16 @@ const Solucao = () => {
                 <Activity className="w-48 h-48 text-brand-gold" />
               </div>
 
-              <h3 className="text-2xl text-white font-bold mb-6">Mapeamento Tático</h3>
+              <h3 className="text-2xl text-white font-bold mb-6">Metodologia Estruturada</h3>
               <p className="text-gray-400 text-lg leading-relaxed max-w-md">
-                Não é sobre pedir TUDO de uma vez. É sobre pedir a coisa certa, na hora certa.
-                Mapeei exatamente o que separa uma execução que termina em pagamento de uma que vai para o arquivo provisório.
+                O Método Veredas organiza os procedimentos de execução trabalhista em 4 fases estratégicas,
+                explicando não apenas o "como fazer", mas principalmente o "por que fazer" cada ato processual
+                em determinado momento.
               </p>
 
               <div className="mt-12 flex items-center gap-4 text-brand-gold font-medium">
                 <div className="w-12 h-1 bg-brand-gold"></div>
-                <span>Fluxo Validado</span>
+                <span>Conhecimento Sistematizado</span>
               </div>
             </div>
           </Reveal>
@@ -47,7 +48,7 @@ const Solucao = () => {
                 <CheckCircle2 className="w-6 h-6 text-brand-gold" />
               </div>
               <h4 className="text-xl text-white font-serif mb-2">1. Ativação</h4>
-              <p className="text-gray-400 text-sm">Sisbajud estratégico e a teimosinha correta. O básico que funciona quando bem feito.</p>
+              <p className="text-gray-400 text-sm">Por que iniciar pelo Sisbajud e qual estratégia de teimosinha usar em cada cenário.</p>
             </div>
           </Reveal>
 
@@ -58,7 +59,7 @@ const Solucao = () => {
                 <GitMerge className="w-6 h-6 text-brand-gold" />
               </div>
               <h4 className="text-xl text-white font-serif mb-2">2. IDPJ</h4>
-              <p className="text-gray-400 text-sm">Atingindo o sócio oculto com precisão cirúrgica. Direto e Inverso.</p>
+              <p className="text-gray-400 text-sm">A lógica do rastreamento direto e inverso de sócios e suas aplicações práticas.</p>
             </div>
           </Reveal>
 
@@ -69,7 +70,7 @@ const Solucao = () => {
                 <Search className="w-6 h-6 text-brand-gold" />
               </div>
               <h4 className="text-xl text-white font-serif mb-2">3. Inteligência</h4>
-              <p className="text-gray-400 text-sm">Sniper, Censec, CCS. Revelando o rastro do dinheiro onde ele estiver.</p>
+              <p className="text-gray-400 text-sm">Como cruzar dados entre Sniper, Censec e CCS para investigação patrimonial eficiente.</p>
             </div>
           </Reveal>
 
@@ -80,7 +81,7 @@ const Solucao = () => {
                 <Lock className="w-6 h-6 text-brand-gold" />
               </div>
               <h4 className="text-xl text-white font-serif mb-2">4. Expropriação</h4>
-              <p className="text-gray-400 text-sm">O xeque-mate. Hastas, adjudicação e bloqueio de recebíveis.</p>
+              <p className="text-gray-400 text-sm">Requisitos técnicos específicos para hastas, adjudicação e bloqueio de recebíveis.</p>
             </div>
           </Reveal>
 
@@ -88,9 +89,9 @@ const Solucao = () => {
           <Reveal delay={0.5} className="md:col-span-1 bg-brand-gold relative overflow-hidden rounded-3xl group cursor-pointer">
             <a href="#oferta" className="block h-full p-8 relative z-10 flex flex-col justify-between">
               <div>
-                <span className="text-brand-black/60 font-bold tracking-widest uppercase text-xs">Resultado</span>
+                <span className="text-brand-black/60 font-bold tracking-widest uppercase text-xs">Conteúdo</span>
                 <div className="text-5xl font-serif font-bold text-brand-black mt-2">100%</div>
-                <div className="text-brand-black/80 font-medium">Lógico & Prático</div>
+                <div className="text-brand-black/80 font-medium">Estruturado & Didático</div>
               </div>
               <div className="self-end p-3 bg-brand-black/10 rounded-full group-hover:bg-brand-black/20 transition-colors">
                 <ArrowRight className="w-6 h-6 text-brand-black" />

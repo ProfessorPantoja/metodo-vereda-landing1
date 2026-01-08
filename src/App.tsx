@@ -7,6 +7,7 @@ import Autor from './components/Autor';
 import Prova from './components/Prova';
 import Oferta from './components/Oferta';
 import Comments from './components/Comments';
+import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
 import CheckoutSimulacao from './CheckoutSimulacao';
@@ -28,6 +29,7 @@ function App() {
       <Prova />
       <Oferta />
       <Comments />
+      <FAQ />
       <Footer />
     </div>
   );

@@ -5,13 +5,13 @@ const Conteudo = () => {
   const items = [
     {
       icon: <Map className="w-6 h-6 text-brand-gold" />,
-      title: "O Mapa do Tesouro",
-      desc: "Entenda a lógica por trás do Sisbajud, Renajud, Infojud, Prevjud, Sniper, CNIB e ARISP."
+      title: "Lógica dos Sistemas",
+      desc: "Como cada sistema funciona (Sisbajud, Renajud, Infojud, Prevjud, Sniper, CNIB, ARISP) e quando utilizá-los."
     },
     {
       icon: <Eye className="w-6 h-6 text-brand-gold" />,
-      title: "O 'Pulo do Gato' do Servidor",
-      desc: "O que nós olhamos antes de deferir ou indeferir um pedido."
+      title: "Requisitos Técnicos",
+      desc: "Quais elementos precisam constar em cada petição para atender os requisitos processuais."
     },
     {
       icon: <FileText className="w-6 h-6 text-brand-gold" />,
@@ -20,8 +20,8 @@ const Conteudo = () => {
     },
     {
       icon: <Brain className="w-6 h-6 text-brand-gold" />,
-      title: "Modelos Mentais",
-      desc: "Como cruzar dados do Imposto de Renda com o Censec para achar laranjas."
+      title: "Cruzamento de Dados",
+      desc: "Metodologia para cruzar informações entre diferentes bases (IR, Censec, CCS) estrategicamente."
     },
   ];
 
@@ -31,12 +31,16 @@ const Conteudo = () => {
         <div className="text-center mb-20">
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-serif text-white mb-6">
-              O Que Você Vai <span className="text-gradient-champagne">Receber</span>
+              O Que Você Vai <span className="text-gradient-champagne">Aprender</span>
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
-            <p className="text-xl text-gray-400">
-              Ebook: <span className="text-brand-gold font-serif italic">Guia-me Pelas Veredas da Execução Trabalhista (Vol. 1)</span>
+            <p className="text-lg md:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
+              O <span className="text-brand-gold font-serif italic">Método Veredas de Execução Trabalhista</span>, contido neste e-book,
+              nasceu para oferecer uma <strong className="text-white">visão estratégica</strong> aos estagiários, advogados,
+              servidores públicos e magistrados que atuam nesse mesmo cenário — um mapa confiável e prático
+              para percorrerem pelas veredas da execução trabalhista, nas quais <strong className="text-white">celeridade não é improviso
+                e efetividade não é acaso: é consequência de método.</strong>
             </p>
           </Reveal>
         </div>
@@ -52,7 +56,7 @@ const Conteudo = () => {
 
                 <img
                   src="https://i.ibb.co/My1C7SzK/Gemini-Generated-Image-wuffrcwuffrcwuff.png"
-                  alt="Advogada com o Guia Definitivo"
+                  alt="E-book Guia-me Pelas Veredas"
                   className="relative w-full max-w-md rounded-2xl shadow-2xl border border-white/10 transform transition-transform duration-500 hover:scale-[1.02]"
                 />
               </div>
@@ -62,7 +66,7 @@ const Conteudo = () => {
           <div className="space-y-12">
             <Reveal delay={0.2}>
               <p className="text-xl text-gray-300 leading-relaxed font-light">
-                Um manual de campo, direto e sem "juridiquês" inútil, escrito para ser usado com o <strong className="text-white font-medium">PJe aberto na sua frente</strong>.
+                Um manual didático, direto e estruturado, escrito para ser estudado com o <strong className="text-white font-medium">PJe aberto na sua frente</strong>.
               </p>
             </Reveal>
 

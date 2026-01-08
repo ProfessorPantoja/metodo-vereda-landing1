@@ -15,18 +15,31 @@ const Dispersao = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
           <Reveal width="100%">
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-red-950 to-brand-black rounded-lg blur opacity-40 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative rounded-xl overflow-hidden border border-brand-gold/5 bg-brand-graphite h-64 md:h-auto md:aspect-square flex items-center justify-center p-4 shadow-2xl">
-                {/* Visual Chaos Representation */}
-                {/* Visual Chaos Representation - Cleaned */}
-                <div className="relative w-48 h-48 md:w-full md:h-full border border-dashed border-gray-800 rounded-full animate-[spin_60s_linear_infinite] opacity-30 flex items-center justify-center">
-                  <div className="w-2/3 h-2/3 border border-gray-700 rotate-45"></div>
+            <div className="relative flex justify-center">
+              {/* Abstract Visual Representation - No heavy containers */}
+              <div className="relative w-full max-w-[400px] aspect-square">
+
+                {/* Center Pulse Element */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-red-500/20 blur-[60px] rounded-full animate-pulse"></div>
+                    <AlertTriangle className="w-24 h-24 text-red-500/80 relative z-10 drop-shadow-[0_0_15px_rgba(239,68,68,0.5)]" />
+                  </div>
+                  <div className="text-center mt-6">
+                    <h3 className="text-2xl font-serif text-white tracking-widest uppercase mb-1">Execução</h3>
+                    <div className="text-red-500 font-bold tracking-[0.2em] text-sm animate-pulse">TRAVADA</div>
+                  </div>
                 </div>
-                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <AlertTriangle className="w-12 h-12 md:w-20 md:h-20 text-red-600 mb-4 animate-pulse" />
-                  <span className="text-lg md:text-2xl font-serif text-red-500 font-bold uppercase tracking-widest text-center shadow-black drop-shadow-lg leading-tight">Execução<br />Travada</span>
+
+                {/* Orbiting Elements to Show Dispersion */}
+                <div className="absolute inset-0 animate-[spin_40s_linear_infinite]">
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-full bg-gradient-to-b from-transparent via-red-900/30 to-transparent"></div>
+                  <div className="absolute top-1/2 left-0 -translate-y-1/2 w-full h-px bg-gradient-to-r from-transparent via-red-900/30 to-transparent"></div>
                 </div>
+
+                {/* Floating "System" Nodes */}
+                <div className="absolute top-[20%] right-[20%] w-3 h-3 bg-red-900/50 rounded-full blur-[2px] animate-ping"></div>
+                <div className="absolute bottom-[20%] left-[20%] w-2 h-2 bg-brand-gold/30 rounded-full blur-[2px] animate-ping delay-700"></div>
               </div>
             </div>
           </Reveal>
@@ -34,24 +47,35 @@ const Dispersao = () => {
           <div>
             <Reveal delay={0.2}>
               <h2 className="text-3xl md:text-5xl font-serif text-white mb-8 leading-tight">
-                A "Dispersão": <br /><span className="text-red-600">O Pesadelo do Advogado</span>
+                O Desafio da <br /><span className="text-brand-gold">Execução Trabalhista</span>
               </h2>
             </Reveal>
 
             <Reveal delay={0.4}>
-              <div className="card-glass border-l-4 border-l-red-900/60 mb-8 bg-brand-surface/60">
+              <div className="card-glass border-l-4 border-l-brand-gold/60 mb-8 bg-brand-surface/60">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  De um lado, o devedor oculta patrimônio com sofisticação. Do outro, o advogado atira para todos os lados: <span className="text-brand-gold font-medium">Sisbajud, Renajud, Infojud...</span> tudo ao mesmo tempo.
+                  A execução trabalhista envolve múltiplos sistemas (<span className="text-brand-gold font-medium">Sisbajud, Renajud, Infojud, IDPJ, Sniper</span>) e uma sequência específica de atos processuais. Sem um método estruturado, é comum:
                 </p>
-                <p className="text-red-400 font-medium flex items-center gap-2">
-                  <AlertTriangle className="w-4 h-4" /> Resultado: Indeferimento e cliente frustrado.
-                </p>
+                <ul className="space-y-3 text-gray-400">
+                  <li className="flex items-start gap-3">
+                    <AlertTriangle className="w-4 h-4 text-brand-gold mt-1 flex-shrink-0" />
+                    <span>Pedidos protocolados fora do momento processual adequado</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <AlertTriangle className="w-4 h-4 text-brand-gold mt-1 flex-shrink-0" />
+                    <span>Requisitos técnicos não atendidos completamente</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <AlertTriangle className="w-4 h-4 text-brand-gold mt-1 flex-shrink-0" />
+                    <span>Retrabalho por falta de documentação correta</span>
+                  </li>
+                </ul>
               </div>
             </Reveal>
 
             <Reveal delay={0.6}>
               <p className="text-xl text-brand-gold font-serif italic border-l-2 pl-6 border-brand-gold/30">
-                "A culpa não é (só) do Judiciário. A culpa é da falta de Método."
+                "O desafio não é falta de esforço. É falta de um mapa claro."
               </p>
             </Reveal>
           </div>
