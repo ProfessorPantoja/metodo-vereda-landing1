@@ -17,6 +17,14 @@ const FAQ = () => {
             answer: "Sim! O método foi desenhado como um mapa passo a passo, ideal tanto para quem está perdido na execução quanto para quem já tem experiência mas quer organizar seu conhecimento."
         },
         {
+            question: "Serve para advogados de reclamada?",
+            answer: "Sim. Embora o foco seja na satisfação do crédito (execução), conhecer profundamente as ferramentas e o rito processual é essencial também para a defesa, permitindo identificar excessos ou nulidades."
+        },
+        {
+            question: "Serve para outros tribunais (TRTs de outras regiões)?",
+            answer: "Sim. A CLT, o CPC e as resoluções do CNJ (como as que regulam o Sisbajud e Sniper) são normas federais. O núcleo do método é universal e aplicável em todo o território nacional."
+        },
+        {
             question: "Como recebo o acesso ao material?",
             answer: "O acesso é digital e imediato. Assim que o pagamento for confirmado, você receberá um email com o link para download do e-book e dos materiais complementares."
         },
